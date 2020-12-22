@@ -1,0 +1,20 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "API REST Node and MySql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "NODE",
+    "MYSQL",
+    "REST"
+  ],
+  "author": "Cesar Felipe Falanque",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
