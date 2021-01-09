@@ -1,0 +1,63 @@
+# Retorna todos os produtos
+GET http://localhost:3000/products
+Content-Type: application/json
+###
+
+# Retorna todos os produtos com filtro
+GET http://localhost:3000/products/?categoryId=3&name=v2
+Content-Type: application/json
+###
+
+# Insere um produto
+POST http://localhost:3000/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImVtYWlsIjoidGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjEwMjEzMjI2LCJleHAiOjE2MTAyMTY4MjZ9.szG8pzaafJU8XKsxcdxQ3ElZEOOHDhpIhnnTmsMAsy0
+
+{
+    "name" : "Carregador Universal v3",
+    "price" : 36.59,
+    "categoryId" : 1
+}
+###
+
+# Retorna detalhes de um produto
+GET http://localhost:3000/products/3
+Content-Type: application/json
+###
+
+# Altera um produto
+PATCH http://localhost:3000/products/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImVtYWlsIjoidGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjEwMjEzMjI2LCJleHAiOjE2MTAyMTY4MjZ9.szG8pzaafJU8XKsxcdxQ3ElZEOOHDhpIhnnTmsMAsy0
+
+{
+    "name" : "Caneta Azul Alterada",
+    "price" : 11.50
+}
+###
+
+# Remove um produto
+DELETE http://localhost:3000/products/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImVtYWlsIjoidGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjEwMjEzMjI2LCJleHAiOjE2MTAyMTY4MjZ9.szG8pzaafJU8XKsxcdxQ3ElZEOOHDhpIhnnTmsMAsy0
+###
+
+# Remove um produto
+DELETE http://localhost:3000/products/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImVtYWlsIjoidGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjEwMjEzMjI2LCJleHAiOjE2MTAyMTY4MjZ9.szG8pzaafJU8XKsxcdxQ3ElZEOOHDhpIhnnTmsMAsy0
+###
+
+
+# Insere uma imagem
+POST http://localhost:3000/produtos
+Content-Type: multipart/form-data;
+
+-------
+Content-Disposition: form-data; nome="caneta"; preco="10.99; "
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImVtYWlsIjoidGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjEwMjEzMjI2LCJleHAiOjE2MTAyMTY4MjZ9.szG8pzaafJU8XKsxcdxQ3ElZEOOHDhpIhnnTmsMAsy0
+
+< /Users/maransatto/Pictures/curso/caneta-vermelha.jpg
+###
+
+

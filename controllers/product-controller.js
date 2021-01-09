@@ -5,7 +5,7 @@ exports.getProducts = async (req, res, next) => {
         let query = "SELECT * FROM products WHERE 1 = 1 ";
         
         if (req.query.categoryId) {
-            query += `AND categoryId = ${req.query.categoryId}`;    
+            query += `AND categoryId = ${req.query.categoryId} `;    
         }
 
         if (req.query.name) {

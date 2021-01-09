@@ -14,6 +14,7 @@ exports.getOrders = (req, res, next) => {
             (error, result, fields) => {
                 if (error) { return res.status(500).send({ error: error }) }
                 const response = {
+                    length: result.length,
                     orders: result.map(order => {
                         return {
                             orderId: order.orderId,
