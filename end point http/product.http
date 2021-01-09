@@ -57,7 +57,6 @@ Content-Type: multipart/form-data;
 Content-Disposition: form-data; nome="caneta"; preco="10.99; "
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImVtYWlsIjoidGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjEwMjEzMjI2LCJleHAiOjE2MTAyMTY4MjZ9.szG8pzaafJU8XKsxcdxQ3ElZEOOHDhpIhnnTmsMAsy0
 
-< /Users/maransatto/Pictures/curso/caneta-vermelha.jpg
 ###
 
 
