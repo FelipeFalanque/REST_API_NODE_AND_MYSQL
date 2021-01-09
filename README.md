@@ -1,8 +1,8 @@
 # REST API NODE AND MYSQL
 
 ## Debug no vscode
-Para debug no vscode criar a pasta ".vscode" na raiz do projeto,
-dentro da pasta criada o arquivo "launch.json" com o seguinte conteudo
+Para debug no vscode criar a pasta ".vscode" na raiz do projeto,<br />
+dentro da pasta ".vscode", criar o arquivo "launch.json" com o seguinte conteudo:<br />
 ```
 {
     "version": "0.2.0",
